@@ -1,0 +1,20 @@
+#ifndef PUBLIC_H
+#define PUBLIC_H
+
+enum EnMsgType{
+    LOGIN_MSG = 1,
+    LOGIN_MSG_ACK,
+    REG_MSG  ,
+    REG_MSG_ACK ,
+    INSTRUMENT_MSG,
+    INSTRUMENTQUARY_MSG,
+    ONE_CHAT_MSG,  
+    ADD_FRIEND_MSG,
+    CREATE_GROUP_MSG,
+    ADD_GROUP_MSG,
+    GROUP_CHAT_MSG,
+    LOGINOUT_MSG,
+
+};
+
+#endif
