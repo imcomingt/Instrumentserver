@@ -56,7 +56,9 @@ target_link_libraries(${demo_name} Analyzer)                                    
 ```
 *******************
 ```
-SET(CUDA_LIB "" CACHE PATH "Location of libraries")                                      缓存一份数据到CMakeCache.txt中             
+SET(CUDA_LIB "" CACHE PATH "Location of libraries")                                      缓存一份数据到CMakeCache.txt中         
+
+add_library(${TARGET_NAME} SHARED ${SRCS})                                               生成动态库，指定STATIC，SHARED，MODULE参数用来指定要创建的库的类型。   
 ```
 
 
